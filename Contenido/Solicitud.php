@@ -63,7 +63,7 @@
         <div class="col-8">
             <form action="#" method="POST">
                 <fieldset>
-                    <legend><h3>Enviar Ticket</h3></legend>
+                    <legend><h2>Enviar Ticket</h2></legend>
                 </fieldset>
             </form>
 
