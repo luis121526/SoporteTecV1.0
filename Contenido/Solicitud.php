@@ -9,7 +9,7 @@
     <title>Ticket Nuevo</title>
 </head>
 <body>
-    <div class="row container-fluid">
+    <div class="row container-fluid cabeza">
     <div class="col-4">
      
      <h4>
