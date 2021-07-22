@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/propio.css">
     <title>Ticket Nuevo</title>
 </head>
 <body>
@@ -61,9 +62,21 @@
     <br>
     <div class="row container-fluid">
         <div class="col-8">
-            <form action="#" method="POST">
+            <form action="#" method="POST" enctype="multipart/form-data">
                 <fieldset>
-                    <legend><h2>Enviar Ticket</h2></legend>
+                    <legend><h2>Generar Nuevo Ticket</h2></legend>
+                    <br>
+                    <input type="email" class="form-control" name="correo"  placeholder="Correo Electrónico">
+                    <br>
+                    <input type="text" class="form-control" name="asunto"  placeholder="Asunto">
+                    <br>
+                    <textarea class="form-control" name="comentarios" rows="3" placeholder="Comentarios"></textarea>
+                    <br>
+                    <label for="archivo">Cargar Imágen Del Problema</label>
+                    <input type="file" name="captura">
+                    <br>
+                    <br>
+                    <input type="submit" name="enviar" value="Enviar Ticket" class="btn btn-primary">
                 </fieldset>
             </form>
 
