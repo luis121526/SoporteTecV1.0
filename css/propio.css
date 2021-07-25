@@ -5,3 +5,49 @@ body{
 .cabeza{
     background-color: #ebf5fb  ;
 }
+.titulo1{
+    background-color: #85929E;
+    color: white;
+}
+.titulo2{
+    background-color: #D6DBDF;
+}
+.ticketnuevo{
+    margin-top: 20px;
+    height: 70px;
+    width: 200px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+.ticketnuevo2{
+    margin-top: -70px;
+    height: 70px;
+    width: 200px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    margin-left: 250px;
+}
+.ticketnuevo3{
+    margin-top: -70px;
+    height: 70px;
+    width: 200px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    margin-left: 500px;
+}
+.ticketnuevo4{
+    margin-top: -70px;
+    height: 70px;
+    width: 200px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    margin-left: 750px;
+}
