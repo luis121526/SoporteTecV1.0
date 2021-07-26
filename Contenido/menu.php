@@ -139,8 +139,114 @@
             <line x1="17" y1="4" x2="19.75" y2="6" />
             </svg>
             </span> <span>45</span> Ticket's Activos</button>
+        
+       
         </div>
+        <br>
+        <hr>   
+  
+        <table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Ticket</th>
+      <th scope="col">Titulo</th>
+      <th scope="col">Prioridad</th>
+      <th scope="col">Estado</th>
+      <th scope="col">Asignado  </th>
+      <th scope="col">Fecha Creación  </th>
+      <th scope="col">Ultima Modificación  </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+      <td>dsda</td>
+      <td>Lorem ipsum dolor </td>
+      <td>Lorem ipsum dolor </td>
+     
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+      <td>dsda</td>
+      <td>Lorem ipsum dolor </td>
+      <td>Lorem ipsum dolor </td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+      <td>dsda</td>
+      <td>Lorem ipsum dolor </td>
+      <td>Lorem ipsum dolor </td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+      <td>dsda</td>
+      <td>Lorem ipsum dolor </td>
+      <td>Lorem ipsum dolor </td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+      <td>dsda</td>
+      <td>Lorem ipsum dolor </td>
+      <td>Lorem ipsum dolor </td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+      <td>dsda</td>
+      <td>Lorem ipsum dolor </td>
+      <td>Lorem ipsum dolor </td>
+    </tr> 
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+      <td>dsda</td>
+      <td>Lorem ipsum dolor </td>
+      <td>Lorem ipsum dolor </td>
+    </tr>
+     <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+      <td>dsda</td>
+      <td>Lorem ipsum dolor </td>
+      <td>Lorem ipsum dolor </td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+      <td>dsda</td>
+      <td>Lorem ipsum dolor </td>
+      <td>Lorem ipsum dolor </td>
+    </tr>
+  </tbody>
+</table>
+
+
     </div>
+  
+ 
 </div>
 </body>
 </html>
