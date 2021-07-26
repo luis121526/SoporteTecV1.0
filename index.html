@@ -6,38 +6,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"  href="css/bootstrap.min.css">
-    <title>Soporte Tecnico</title>
-    <!--hola mundo-->
-    <!--prueba de programacion-->
+    <link rel="stylesheet" href="css/propio.css">
+    <title>Servcie Support</title>
+
 </head>
-<body>
-    <div class="row container-fluid">
-    <div class="col">     
-    <header><h1>Bienvenido a tu soporte Tecnico</h1></header>
-    </div>
-    </div>
-    <div class="row container-fluid">
-    <div class="col-10">
-    <form action="#" method="POST">
-        <fieldset>
-            <legend>Ingresa Tus datos</legend>
-            <input type="text" name="usuario" placeholder="Usuario" > 
-            <br>
-            <input type="password" name="contra" placeholder="Contraseña">
-            <br>
-            <br>
-            <input type="submit" name="enviar" value="Entrar" class="btn btn-primary"> 
-        </fieldset>
-    </form>
-    </div>
-    <div class="col-2">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-accessible" width="80" height="80" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <circle cx="12" cy="12" r="9" />
-            <path d="M10 16.5l2 -3l2 3m-2 -3v-2l3 -1m-6 0l3 1" />
-            <circle cx="12" cy="7.5" r=".5" fill="currentColor" />
-          </svg>
-    </div>
-    </div>
+<body background="Imagenes/fondo.jpg">
+    <!--encabezado de la pagina -->
+        <div class="row container-fluid titulo1">
+            <!--cabecera del sitio-->
+                <div class="col">
+                    <h5><span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-windows" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M17.8 20l-12 -1.5c-1 -.1 -1.8 -.9 -1.8 -1.9v-9.2c0 -1 .8 -1.8 1.8 -1.9l12 -1.5c1.2 -.1 2.2 .8 2.2 1.9v12.1c0 1.2 -1.1 2.1 -2.2 1.9z" />
+                            <line x1="12" y1="5" x2="12" y2="19" />
+                            <line x1="4" y1="12" x2="20" y2="12" />
+                        </svg> 
+                    </span>ServiceSupport</h5>
+                </div>
+            <!--cabecera del sitio-->
+               
+        </div>
+    
+        <!--Contenido central del sitio-->
+        <div class="row container-fluid">
+
+            <!--Formulario Login-->
+            <div class="col login">
+                <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+            </div>
+
+        </div>
+
+    <!--encabezado de la pagina -->
+
 </body>
 </html>

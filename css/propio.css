@@ -1,3 +1,7 @@
+:root{
+  --color1: #85929E;
+}
+
 body{
     margin: 0px;
     padding: 0px;
@@ -6,7 +10,7 @@ body{
     background-color: #ebf5fb  ;
 }
 .titulo1{
-    background-color: #85929E;
+    background-color: var(--color1);
     color: white;
 }
 .titulo2{
@@ -62,4 +66,10 @@ body{
 }
 .datos2{
     margin-left: 100px;
+}
+.login{
+    margin: 20px 450px 20px 450px;
+    height: auto;
+    width: auto;
+    background-color: red;
 }

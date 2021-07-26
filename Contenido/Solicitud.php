@@ -10,7 +10,7 @@
     <title>Ticket Nuevo</title>
 </head>
 <body>
-    <div class="row container-fluid cabeza">
+    <div class="row container-fluid titulo1">
     <div class="col-4">
      
      <h4>
@@ -69,9 +69,19 @@
                     <br>
                     <input type="email" class="form-control" name="correo"  placeholder="Correo Electrónico">
                     <br>
+                    <input type="tel" class="form-control" name="tel"  placeholder="Telefono De Contacto">
+                    <br>
                     <input type="text" class="form-control" name="asunto"  placeholder="Asunto">
                     <br>
                     <textarea class="form-control" name="comentarios" rows="3" placeholder="Comentarios"></textarea>
+                    <br>
+                    
+                    <select class="form-select" aria-label="select example">
+                    <option selected>Selecciona Tipo De Prioridad</option>
+                    <option value="1">Alta</option>
+                    <option value="2">Media</option>
+                    <option value="3">Baja</option>
+                    </select>
                     <br>
                     <label for="archivo">Cargar Imágen Del Problema</label>
                     <input type="file" name="captura">
@@ -83,5 +93,13 @@
 
         </div>
     </div>
+    <br>
+    <footer class="titulo1">
+        <div class="row container-fluid">
+            <div class="col-2">
+                <h6 class="text center">Servicio Mesa De Ayuda</h6>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
