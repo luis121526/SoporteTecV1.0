@@ -51,3 +51,15 @@ body{
     font-size: 20px;
     margin-left: 750px;
 }
+.perfil{
+    background-color: #D6DBDF;
+}
+.datos{
+    margin-top: 10px;
+    margin-left: 200px;
+    background-color: #D6DBDF;
+    border-radius: 8px;
+}
+.datos2{
+    margin-left: 100px;
+}

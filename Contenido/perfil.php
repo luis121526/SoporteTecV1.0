@@ -34,6 +34,8 @@
                </span> Usuario  </h6>
             </div> 
     </div>
+
+    
     <div class="row container-fluid">
          <div class="col-2 titulo2">
                 <span>
@@ -94,158 +96,57 @@
             </button>
       <hr>
     </div>
-    <div class="col-8">
-        <div class="ticketnuevo">
-            <button class="btn btn-danger"> <span>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bell-ringing" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M10 5a2 2 0 0 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6" />
-            <path d="M9 17v1a3 3 0 0 0 6 0v-1" />
-            <path d="M21 6.727a11.05 11.05 0 0 0 -2.794 -3.727" />
-            <path d="M3 6.727a11.05 11.05 0 0 1 2.792 -3.727" />
-            </svg>
-            </span> <span>45</span> Ticket's Nuevos</button>
+
+
+    <div class="col-6  datos">
+    
+        <div class="col-8 datos2">
+        <center><span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-photo" width="84" height="84" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <line x1="15" y1="8" x2="15.01" y2="8" />
+        <rect x="4" y="4" width="16" height="16" rx="3" />
+        <path d="M4 15l4 -4a3 5 0 0 1 3 0l5 5" />
+        <path d="M14 14l1 -1a3 5 0 0 1 3 0l2 2" />
+        </svg>
+    </span>
+    <br>
+    <h6>Imagen De Perfil</h6></center>
+    <hr>
+            <form>
+        <div class="form-group">
+            <label for="nombre">Nombres</label>
+            <input type="text" class="form-control" name="nom"  placeholder="Nombre(s)">
         </div>
-        <div class="ticketnuevo2">
-            <button class="btn btn-warning"> <span>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-alert-circle" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <circle cx="12" cy="12" r="9" />
-            <line x1="12" y1="8" x2="12" y2="12" />
-            <line x1="12" y1="16" x2="12.01" y2="16" />
-            </svg>
-            </span> <span>45</span> Ticket's Urgentes</button>
+        <div class="form-group">
+            <label for="apellido">Apellidos</label>
+            <input type="text" class="form-control" name="ape" placeholder="Apellido(s)">
         </div>
-        <div class="ticketnuevo3">
-            <button class="btn btn-success"> <span>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-trophy" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <line x1="8" y1="21" x2="16" y2="21" />
-                <line x1="12" y1="17" x2="12" y2="21" />
-                <line x1="7" y1="4" x2="17" y2="4" />
-                <path d="M17 4v8a5 5 0 0 1 -10 0v-8" />
-                <circle cx="5" cy="9" r="2" />
-                <circle cx="19" cy="9" r="2" />
-                </svg>
-            </span> <span>45</span> Ticket's Resueltos</button>
+        <div class="form-group">
+            <label for="usuario">Nombre De Usuario</label>
+            <input type="text" class="form-control" name="us" placeholder="Nombre De Usuario">
         </div>
-        <div class="ticketnuevo4">
-            <button class="btn btn-success"> <span>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-alarm" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <circle cx="12" cy="13" r="7" />
-            <polyline points="12 10 12 13 14 13" />
-            <line x1="7" y1="4" x2="4.25" y2="6" />
-            <line x1="17" y1="4" x2="19.75" y2="6" />
-            </svg>
-            </span> <span>45</span> Ticket's Activos</button>
+        <div class="form-group">
+            <label for="contra">Nueva Contraseña</label>
+            <input type="password" class="form-control" name="pass" placeholder="Contraseña">
+        </div>
+      <br>
+        <div class="form-group">
+            <label for="archivo">Imágen Perfil</label>
+            <input type="file" class="form-control-file" name="imagen">
+        </div>
         
-       
-        </div>
         <br>
-        <hr>   
-  
-        <table class="table">
-  <thead class="thead-dark">
-    <tr>
-      <th scope="col">Ticket</th>
-      <th scope="col">Titulo</th>
-      <th scope="col">Prioridad</th>
-      <th scope="col">Estado</th>
-      <th scope="col">Asignado  </th>
-      <th scope="col">Fecha Creación  </th>
-      <th scope="col">Ultima Modificación  </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-      <td>dsda</td>
-      <td>Lorem ipsum dolor </td>
-      <td>Lorem ipsum dolor </td>
-     
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-      <td>dsda</td>
-      <td>Lorem ipsum dolor </td>
-      <td>Lorem ipsum dolor </td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-      <td>dsda</td>
-      <td>Lorem ipsum dolor </td>
-      <td>Lorem ipsum dolor </td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-      <td>dsda</td>
-      <td>Lorem ipsum dolor </td>
-      <td>Lorem ipsum dolor </td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-      <td>dsda</td>
-      <td>Lorem ipsum dolor </td>
-      <td>Lorem ipsum dolor </td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-      <td>dsda</td>
-      <td>Lorem ipsum dolor </td>
-      <td>Lorem ipsum dolor </td>
-    </tr> 
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-      <td>dsda</td>
-      <td>Lorem ipsum dolor </td>
-      <td>Lorem ipsum dolor </td>
-    </tr>
-     <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-      <td>dsda</td>
-      <td>Lorem ipsum dolor </td>
-      <td>Lorem ipsum dolor </td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-      <td>dsda</td>
-      <td>Lorem ipsum dolor </td>
-      <td>Lorem ipsum dolor </td>
-    </tr>
-  </tbody>
-</table>
-
-
+        <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+          
     </div>
-  
+    
+    
+</div>
+
+
+
  
 </div>
 <br>
