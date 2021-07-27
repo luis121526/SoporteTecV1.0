@@ -138,9 +138,9 @@
         </div>
         
         <br>
-        <button type="submit" class="btn btn-primary">Enviar</button>
+        <button type="submit" class="btn btn-primary">Aceptar</button>
         </form>
-          
+        <br>  
     </div>
     
     

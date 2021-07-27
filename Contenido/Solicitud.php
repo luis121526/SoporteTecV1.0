@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../css/propio.css">
     <title>Ticket Nuevo</title>
 </head>
-<body>
+<body class="bodyindex">
     <div class="row container-fluid titulo1">
     <div class="col-4">
      
