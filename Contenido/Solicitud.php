@@ -61,15 +61,15 @@
     </div>
     </div>
     <br>
-    <div class="row container-fluid">
-        <div class="col-8">
+    <div class="row container-fluid " >
+        <div class="col-8 formulario">
             <form action="#" method="POST" enctype="multipart/form-data">
                 <fieldset>
                     <legend><h2>Generar Nuevo Ticket</h2></legend>
                     <br>
                     <input type="email" class="form-control" name="correo"  placeholder="Correo Electrónico">
                     <br>
-                    <input type="tel" class="form-control" name="tel"  placeholder="Telefono De Contacto">
+                    <input type="number" class="form-control" name="tel"  placeholder="Telefono De Contacto">
                     <br>
                     <input type="text" class="form-control" name="asunto"  placeholder="Asunto">
                     <br>

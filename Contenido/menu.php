@@ -95,7 +95,7 @@
             </button>
       <hr>
     </div>
-    <div class="col-8">
+    <div class="col">
         <div class="ticketnuevo">
             <button class="btn btn-danger"> <span>
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bell-ringing" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -143,8 +143,10 @@
         
        
         </div>
+       
         <br>
-        <hr>   
+        <hr>
+      
   
         <table class="table">
   <thead class="thead-dark">
