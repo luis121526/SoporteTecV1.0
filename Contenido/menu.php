@@ -259,8 +259,8 @@
 <div class="row container-fluid">
     <div class="col-2 titulo1">
         <?php
-        
-       $hoy = date("F j, Y, g:i a");
+         date_default_timezone_set('America/Mexico_City');
+       $hoy = date("M j, Y, h:m:s");
         echo $hoy;
         ?>
     </div>
