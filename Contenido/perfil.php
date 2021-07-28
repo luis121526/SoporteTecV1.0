@@ -143,6 +143,8 @@
         <button type="submit" class="btn btn-primary">Aceptar</button>
         </form>
         <br>  
+        <br>
+        
     </div>
     
     
@@ -152,7 +154,7 @@
 
  
 </div>
-<br>
+
 <footer >
 <div class="row container-fluid">
     <div class="col-2 titulo1">

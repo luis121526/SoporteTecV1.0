@@ -105,7 +105,7 @@
   
  
 </div>
-<br>
+
 <footer >
 <div class="row container-fluid">
     <div class="col-2 titulo1">
